@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "AntigenName": "BCG",
+            "MaleCount": 2,
+            "FemaleCount": 2,
+            "Total": 4
+        },
+        {
+            "AntigenName": "Hepa B",
+            "MaleCount": 2,
+            "FemaleCount": 2,
+            "Total": 4
+        },
+        {
+            "AntigenName": "Pentavalent",
+            "MaleCount": 2,
+            "FemaleCount": 2,
+            "Total": 4
+        }
+    ]
+}

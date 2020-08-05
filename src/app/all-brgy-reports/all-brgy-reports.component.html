@@ -1,0 +1,15 @@
+<!-- <div id="container-quota2"></div>
+<div class="spacer"></div> -->
+<div id="graph-vaccineCoverage"></div>
+<select [(ngModel)]="selectedMonth" class="form-control" (change)="getMonth(selectedMonth)">
+  <option value="" disabled>Select Month</option>
+  <option *ngFor="let m of months" [ngValue]="m">
+    {{m}}
+  </option>
+</select>
+<!-- {{selectedMonth}} -->
+<div class="spacer"></div>
+
+<div id="container-quota3"></div>
+<!-- <div class="spacer"></div>
+<div id="container-quota4"></div> -->
